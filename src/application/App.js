@@ -26,7 +26,17 @@ class App extends react.Component {
             <react.Fragment>
                 <div className={"left"}>
                     <div className={"notification shadow"} />
-                    <div className={"navigation shadow"} />
+                    <div className={"navigation shadow"} >
+                        <div className={"handlers"}>
+                            <ul >
+                                <li><i className="fas fa-comment-dots"/></li>
+                                <li><i className="fas fa-user-alt" /></li>
+                                {/*<li><i style={{marginLeft:'3px'}} className="fas fa-user-plus" /></li>*/}
+                                {/*<li><i className="fas fa-exclamation" /></li>*/}
+                                <li><i className="fas fa-cog" /></li>
+                            </ul>
+                        </div>
+                    </div>
                     <div className={"tab shadow"}>
 
                     </div>

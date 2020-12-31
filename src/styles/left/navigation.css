@@ -4,3 +4,29 @@
     padding: 5px;
     background-color: #202225;
 }
+
+.handlers {
+
+}
+
+.handlers ul {
+    list-style: none;
+}
+
+.handlers ul li {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #36393f;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-left: 2px solid #2f3136;
+}
+
+.handlers ul li:hover {
+    border-left: 2px solid #7289DA;
+    color:  #7289DA;
+    cursor: pointer;
+}
