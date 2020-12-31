@@ -1,0 +1,27 @@
+.room {
+    height: 100%;
+    width: 100%;
+    background-color: #292b2f;
+    overflow-y: scroll;
+}
+
+.room::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.room::-webkit-scrollbar-track {
+    background: #36393f;
+    border-radius: 100px
+}
+
+/* Handle */
+.room::-webkit-scrollbar-thumb {
+    background: #202225;
+    border-radius: 100px
+}
+
+/* Handle on hover */
+.room::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

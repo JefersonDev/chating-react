@@ -1,0 +1,28 @@
+
+.tab {
+    padding: 5px;
+    width: 225px;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #36393f;
+}
+
+.tab::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+.tab::-webkit-scrollbar-track {
+    background: #36393f
+}
+
+/* Handle */
+.tab::-webkit-scrollbar-thumb {
+    background: #202225;
+    border-radius: 100px
+}
+
+/* Handle on hover */
+.tab::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,19 @@
+.online {
+    background-color: #43B581;
+}
+
+.offline {
+    background-color: #2f3136;
+}
+
+.busy {
+    background-color: #F04747;
+}
+
+.absent {
+    background-color: #FAA61A;
+}
+
+.admin {
+    background-color: #9B84EE;
+}
