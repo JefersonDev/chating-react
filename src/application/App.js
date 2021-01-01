@@ -25,7 +25,25 @@ class App extends react.Component {
         return (
             <react.Fragment>
                 <div className={"left"}>
-                    <div className={"notification shadow"} />
+                    <div className={"notification shadow"}>
+                        <div>
+                            <div className={"unreadys"}>
+                                <ul>
+                                    <li><img width={"100%"} src={"img/avatar.png"} alt={""} /></li>
+                                </ul>
+                            </div>
+                            <div className={"groups"}>
+                                <ul>
+                                    <li><img width={"100%"} src={"img/group.png"} alt={""} /></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className={"handlers"}>
+                            <ul >
+                                <li className={"plus"}><i className="fas fa-plus" /></li>
+                            </ul>
+                        </div>
+                    </div>
                     <div className={"navigation shadow"} >
                         <div className={"handlers"}>
                             <ul >
@@ -35,6 +53,10 @@ class App extends react.Component {
                                 {/*<li><i className="fas fa-exclamation" /></li>*/}
                                 <li><i className="fas fa-cog" /></li>
                             </ul>
+                        </div>
+                        <div className={"profile"}>
+                            <img src={"img/avatar.png"} alt={""} width={"100%"} />
+                            <div className={"profile-status online"}/>
                         </div>
                     </div>
                     <div className={"tab shadow"}>
