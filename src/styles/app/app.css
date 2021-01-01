@@ -10,6 +10,11 @@ html,
 body {
     height: 100%;
     color: #b9bbbe;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
 }
 
 .shadow {

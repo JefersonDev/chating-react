@@ -26,3 +26,65 @@
 .tab::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+.tab-container ul {
+    list-style: none;
+}
+
+.tab-container ul li {
+    background-color: #36393f;
+    padding: 5px 7px;
+    display: flex;
+    position: relative;
+}
+
+.tab-container ul li:hover {
+    cursor: pointer;
+    background-color: #202225;
+}
+
+.tab-container ul li {
+    border-left: 2px solid #b9bbbe;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.li-avatar {
+    position: relative;
+}
+
+.li-status {
+    position: absolute;
+    bottom: -2px;
+    right: -4px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #36393f;
+    border-radius: 100px;
+}
+
+.li-avatar img {
+    border-radius: 100px;
+}
+
+.li-body {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.li-action {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    display: none;
+    padding: 5px;
+}
+
+.tab-container ul li:hover .li-action {
+    display: block;
+}
+
+.li-action:hover {
+    color: #ffffff;
+}

@@ -60,7 +60,18 @@ class App extends react.Component {
                         </div>
                     </div>
                     <div className={"tab shadow"}>
-
+                        <div className={"tab-container"}>
+                            <ul>
+                                <li>
+                                    <div className={"li-avatar"}>
+                                        <img width={"35px"} src={"img/avatar.png"} alt={""} />
+                                        <div className={"li-status online"} />
+                                    </div>
+                                    <div className={"li-body"}>afro</div>
+                                    <div className={"li-action"}><i className="fas fa-times" /></div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className={"right shadow"}>
