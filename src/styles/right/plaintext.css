@@ -2,5 +2,29 @@
     margin: 25px;
     padding: 10px;
     background-color: #36393f;
-    border-radius: 5px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plaintext-input {
+    width: 100%;
+}
+
+.plaintext-input input {
+    padding: 10px;
+    width: 100%;
+    background-color: #36393f;
+    color: #ffffff;
+}
+
+.plaintext-action {
+    padding: 0 10px;
+    font-size: 25px;
+}
+
+.plaintext-action i:hover {
+    color: white;
+    cursor: pointer;
 }

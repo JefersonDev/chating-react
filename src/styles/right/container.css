@@ -4,3 +4,57 @@
     display: flex;
     flex-direction: column;
 }
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-container.contacts {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    margin-top: 8px;
+    flex-direction: column;
+}
+
+.tab-container.contacts ul {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.tab-container.contacts ul li {
+    width: 183px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.tab-container.contacts ul .order {
+    border-left: 2px solid #f04747;
+}
+
+.tab-container.contacts ul .invite {
+    border-left: 2px solid #faa61a;
+}
+
+
+
+.invite-form input {
+    padding: 10px;
+    background-color: #292b2f;
+    color: #b9bbbe;
+    border-bottom: 2px solid #7289DA;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.invite-form button {
+    padding: 10px 15px;
+    background-color: #7289DA;
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid #7289DA;
+    border-radius: 0 3px 3px 0;
+}

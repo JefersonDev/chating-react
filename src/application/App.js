@@ -29,7 +29,7 @@ class App extends react.Component {
                         <div>
                             <div className={"unreadys"}>
                                 <ul>
-                                    <li><img width={"100%"} src={"img/avatar.png"} alt={""} /></li>
+                                    <li><img width={"100%"} src={"img/fernanda.png"} alt={""} /></li>
                                 </ul>
                             </div>
                             <div className={"groups"}>
@@ -46,16 +46,14 @@ class App extends react.Component {
                     </div>
                     <div className={"navigation shadow"} >
                         <div className={"handlers"}>
-                            <ul >
+                            <ul>
                                 <li><i className="fas fa-comment-dots"/></li>
                                 <li><i className="fas fa-user-alt" /></li>
-                                {/*<li><i style={{marginLeft:'3px'}} className="fas fa-user-plus" /></li>*/}
-                                {/*<li><i className="fas fa-exclamation" /></li>*/}
                                 <li><i className="fas fa-cog" /></li>
                             </ul>
                         </div>
                         <div className={"profile"}>
-                            <img src={"img/avatar.png"} alt={""} width={"100%"} />
+                            <img src={"img/jeferson.png"} alt={""} width={"100%"} />
                             <div className={"profile-status online"}/>
                         </div>
                     </div>
@@ -64,10 +62,10 @@ class App extends react.Component {
                             <ul>
                                 <li>
                                     <div className={"li-avatar"}>
-                                        <img width={"35px"} src={"img/avatar.png"} alt={""} />
+                                        <img width={"35px"} src={"img/joelton.png"} alt={""} />
                                         <div className={"li-status online"} />
                                     </div>
-                                    <div className={"li-body"}>afro</div>
+                                    <div className={"li-body"}>joelton</div>
                                     <div className={"li-action"}><i className="fas fa-times" /></div>
                                 </li>
                             </ul>
@@ -76,11 +74,79 @@ class App extends react.Component {
                 </div>
                 <div className={"right shadow"}>
                     <div className={"container"}>
-                        <div className={"header shadow"} />
-                        <div className={"room"}>
-
+                        <div className={"main"}>
+                            <div className={"header shadow"} />
+                            <div className={"room"}>
+                                <div className={"msg shadow"}>
+                                    <div className={"msg-avatar"}>
+                                        <img width={"35px"} src={"img/jeferson.png"} />
+                                    </div>
+                                    <div className={"msg-body"}>
+                                        The viewport-percentage lengths are relative to the size of the initial containing block. When the height or width of the initial containing block is changed
+                                    </div>
+                                </div>
+                                <div className={"msg shadow"}>
+                                    <div className={"msg-avatar"}>
+                                        <img width={"35px"} src={"img/bianca.png"} />
+                                    </div>
+                                    <div className={"msg-body"}>
+                                        The viewport-percentage lengths are relative to the size of the initial containing block. When the height or width of the initial containing block is  The viewport-percentage lengths are relative to the size of the initial containing block. When the height or width of the initial containing block is changed
+                                    </div>
+                                </div>
+                                <div className={"msg shadow"}>
+                                    <div className={"msg-avatar"}>
+                                        <img width={"35px"} src={"img/jeferson.png"} />
+                                    </div>
+                                    <div className={"msg-body"}>
+                                        When the height or width of the initial containing block is changed
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={"plaintext shadow"}>
+                                <div className={"plaintext-input"}>
+                                    <input type={"text"}/>
+                                </div>
+                                <div className={"plaintext-action"}>
+                                    <i className="fas fa-grin-tongue-wink" />
+                                </div>
+                            </div>
                         </div>
-                        <div className={"plaintext shadow"} />
+                        <div className={"main-container"}>
+                            {/*<div className={"header"}>*/}
+                            {/*    <div className={"invite-form"}>*/}
+                            {/*        <input type={"text"} />*/}
+                            {/*        <button><i className="fas fa-plus" /></button>*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
+                            {/*<div className={"tab-container contacts"}>*/}
+                            {/*    <ul>*/}
+                            {/*        <li>*/}
+                            {/*            <div className={"li-avatar"}>*/}
+                            {/*                <img width={"35px"} src={"img/joelton.png"} alt={""} />*/}
+                            {/*                <div className={"li-status online"} />*/}
+                            {/*            </div>*/}
+                            {/*            <div className={"li-body"}>joelton</div>*/}
+                            {/*            <div className={"li-action"}><i className="fas fa-bars" /></div>*/}
+                            {/*        </li>*/}
+                            {/*        <li className={"order"}>*/}
+                            {/*            <div className={"li-avatar"}>*/}
+                            {/*                <img width={"35px"} src={"img/bianca.png"} alt={""} />*/}
+                            {/*                <div className={"li-status online"} />*/}
+                            {/*            </div>*/}
+                            {/*            <div className={"li-body"}>bianca</div>*/}
+                            {/*            <div className={"li-action"}><i className="fas fa-bars"></i></div>*/}
+                            {/*        </li>*/}
+                            {/*        <li className={"invite"}>*/}
+                            {/*            <div className={"li-avatar"}>*/}
+                            {/*                <img width={"35px"} src={"img/beatriz.png"} alt={""} />*/}
+                            {/*                <div className={"li-status online"} />*/}
+                            {/*            </div>*/}
+                            {/*            <div className={"li-body"}>beatriz</div>*/}
+                            {/*            <div className={"li-action"}><i className="fas fa-bars"></i></div>*/}
+                            {/*        </li>*/}
+                            {/*    </ul>*/}
+                            {/*</div>*/}
+                        </div>
                     </div>
                     <div className={"wrappers shadow"} />
                 </div>
