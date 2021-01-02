@@ -7,9 +7,17 @@
 }
 
 .msg {
-    display: flex;
+
+    flex-direction: column;
+
+}
+
+.msg-content {
+    display: inline-flex;
     background-color: #36393f;
+
     padding: 5px;
+    padding-right: 10px;
     margin-bottom: 5px;
     border-radius: 3px 3px 3px 3px;
 }

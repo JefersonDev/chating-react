@@ -49,6 +49,10 @@
     margin-bottom: 5px;
 }
 
+.tab-container ul li.active {
+    background-color: #202225;
+}
+
 .li-avatar {
     position: relative;
 }
